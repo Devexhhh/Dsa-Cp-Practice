@@ -71,6 +71,7 @@ void solve() {
     }
     cout << ans << nl;
 }
+
 int32_t main() {
 #ifdef DEVEX
     freopen("Error.txt", "w", stderr);

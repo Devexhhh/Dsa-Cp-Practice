@@ -11,7 +11,6 @@ using namespace std;
 int main()
 {
         ll m,n,t,b,c,d,i,j,k,x,y,z,l,q,r;
-
         ll cnt=0,ans=0;
         scl(t);
         while(t--)

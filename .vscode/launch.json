@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "d:/01_PROJECTS/TESTING_SANDBOX/dsa-cp-practice/TLE Eliminators/1200",
-      "program": "d:/01_PROJECTS/TESTING_SANDBOX/dsa-cp-practice/TLE Eliminators/1200/build/Debug/outDebug",
+      "cwd": ".",
+      "program": "build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

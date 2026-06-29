@@ -2,7 +2,6 @@
 #include<stdio.h>
 using namespace std;
 
-
 #define ll                  long long
 #define scl(n)              cin>>n;
 #define scc(c)	            cin>>c;

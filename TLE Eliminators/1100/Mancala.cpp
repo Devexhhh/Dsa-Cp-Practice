@@ -47,7 +47,6 @@ int main()
             ll b=(a[j]+(a[i]/14)+1);
             if(j==i)
                 b=(a[i]/14)+1;
-            //cout<<j<< " "<<b<<endl;
             if(b%2==0)
                 total+=b;
             cnt++,j++;
@@ -59,14 +58,12 @@ int main()
             ll b=(a[j]+(a[i]/14));
             if(j==i)
                 b=(a[i]/14);
-                //cout<<j<<  " "<<b<<endl;
             if(b%2==0)
                 total+=b;
             cnt++,j++;
         }
         if(total>maxx)
             maxx=total;
-        //cout<<total<<endl;
     }
     cout<<maxx<<endl;
    // show

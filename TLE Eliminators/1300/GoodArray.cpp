@@ -7,8 +7,7 @@ int main()
     vector<long long unsigned> a;
     vector<long long unsigned> mem;
     cin>>n;
-    for(i=0;i<n;i++)
-    {
+    for(i=0;i<n;i++) {
         cin>>j;
         a.push_back(j);
         total+=j;
@@ -21,22 +20,16 @@ int main()
         if(j>maxx2 && j<=maxx)
             maxx2=j;
     }
-    //cout<<maxx<<" "<<maxx2<<endl;
     for(i=0;i<n;i++)
     {
-        if(a[i]!=maxx)
-        {
-            //cout<<maxx<<" "<<total<<endl;
-            if(maxx==(total-a[i]-maxx))
-            {
+        if(a[i]!=maxx) {
+            if(maxx==(total-a[i]-maxx)) {
                 mem.push_back(i+1);
                 checknice++;
             }
         }
-        else
-        {
-            if(maxx2==(total-a[i]-maxx2))
-            {
+        else {
+            if(maxx2==(total-a[i]-maxx2)) {
                 mem.push_back(i+1);
                 checknice++;
             }

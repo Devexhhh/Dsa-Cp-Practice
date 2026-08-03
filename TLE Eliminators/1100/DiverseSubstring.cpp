@@ -7,10 +7,6 @@ using namespace std;
 int main()
 {
     fastread();
-
-    //freopen("input.txt","r", stdin);
-    //freopen("output.txt","w", stdout);
-
     ll n;
     string s,t;
     cin>>n>>s;
